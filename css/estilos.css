@@ -185,6 +185,48 @@ a.cambiarFuente:active {
   font-family: monospace;
 }
 
+/*Responsive Design*/
+/*Desktop*/
+/*Tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .gridDestacados {
+    display: grid;
+    grid-template-columns: 5vh 5vh;
+    justify-items: center;
+  }
+  .gridFooter {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+  iframe {
+    display: none;
+  }
+}
+/*Celular*/
+@media (max-width: 480px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  img {
+    width: 350px;
+  }
+  .gridDestacados {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .gridRepetitivo {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  iframe {
+    display: none;
+  }
+}
 /* ANIDAMIENTO */
 img {
   opacity: 1;
