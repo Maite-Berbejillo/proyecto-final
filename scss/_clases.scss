@@ -42,24 +42,6 @@ h2 {
 
 /**FIN MIXIN**/
 
-/**MAPS**/
-
-$colors: (
-    Instagram: #C13584,
-    Facebook:  #125688,
-);
-
-.iconof {
-    background-color: map-get($colors, Facebook);
-    
-}
-
-.iconoi {
-    background-color: map-get($colors, Instagram);
-}
-
-/**FIN MAPS**/
-
 .derecha {
     display:flex;
     justify-content: flex-end;
